@@ -36,7 +36,7 @@ public class ManagerProyek extends Orang {
         return proyek;
     }
     
-    public deleteProyek(proyek P, int i) {
+    public void deleteProyek(proyek P, int i) {
         if((i>P.length) && (i<0)) {
             P[i] = null;
             System.out.println("Proyek ke-"+(i+1)+" telah dihapus");
